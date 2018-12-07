@@ -1,0 +1,378 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-style: 'Gill Sans', 'Century Gothic', sans-serif;
+ }
+
+article, aside, footer, header, nav, section {
+  display: block; }
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+figcaption, figure, main {
+  display: block; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted; }
+
+b, strong {
+  font-weight: inherit; }
+
+b, strong {
+  font-weight: bolder; }
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
+audio, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+img {
+  border-style: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+button, input {
+  overflow: visible; }
+
+button, select {
+  text-transform: none; }
+
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: button; }
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+fieldset {
+  padding: .35em .75em .625em; }
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal; }
+
+progress {
+  display: inline-block;
+  vertical-align: baseline; }
+
+textarea {
+  overflow: auto; }
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px; }
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit; }
+
+details, menu {
+  display: block; }
+
+summary {
+  display: list-item; }
+
+canvas {
+  display: inline-block; }
+
+template {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+/*# sourceMappingURL=normalize.min.css.map */
+* {
+  box-sizing: border-box; }
+
+  header {
+  	width:100%;
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 0px;
+  }
+.Logo{
+  width: 10%;
+}
+  header nav {
+  	width:90%;
+  	max-width:1000px;
+  	/* margin:20px auto; */
+  	/* background:#024959; */
+    margin-left: 30%;
+
+
+  }
+
+  .menu_bar {
+  	display:none;
+
+  }
+
+
+   header nav ul {
+  	overflow:hidden;
+  	list-style:none;
+
+  }
+  header nav ul .listMenu {
+  	float:left;
+  }
+
+
+  header nav ul .listMenu a {
+  	color:#aaaaaa;
+    border-left: 1px solid #fecd2f;
+
+  	padding:5px 35px 5px 35px;
+  	display:block;
+  	text-decoration:none;
+  }
+  header nav ul li a:hover {
+  	background:#fecd2f;
+    color: #FFFFFF;
+  }
+
+@media screen and (max-width:800px){
+  header nav{
+    width: 80%;
+    height: 100%;
+    margin: 0;
+
+  }
+  header nav ul li{
+    display: block;
+    float: none;
+    border-bottom:1px solid rgba(225, 255, 255, 0.3);
+
+  }
+  .menu_bar{
+    display: block;
+    width: 100%;
+
+  }
+  .menu_bar .bt-menu{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+
+
+  }
+  .menu_bar span{
+    float:right;
+    font-size:40px;
+  }
+
+}
+/* /////////////seccion//////////////// */
+*{box-sizing: border-box;}
+body{font-family: "Palatino", serif;}
+img{width: 100%; display: block;}
+
+.column-container{
+  padding: 5% 15% 3% ;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.titulo{
+  padding:5% 15% 0px;
+
+}
+.img-col{
+   padding: 10px;
+   width : 100%;
+   font-size: 18px;
+}
+.amarillo{
+  width: 8%;
+  padding-bottom:3px;
+  border-bottom: solid 3px #fecd2f;
+}
+
+.btn-grande{
+  text-align: center;
+  margin:0% 30% 3%;
+  padding: 9px;
+  color: black;
+  width: 45%;
+  background-color: #fecd2f;
+  border: solid 2px black;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+  .img-col{
+     width: 50%;
+     font-size: 13px;
+  }
+
+}
+
+ @media screen and (min-width: 800px){
+  .img-col{
+     width: 50%;
+     font-size: 16px;
+
+  }
+}
+/* /////////////////// */
+
+.colorgris{
+ background: #333333;
+ color:#FFFFFF;
+ text-align: center;
+}
+.containerDos{
+  /* padding: 5% 15% 3% ; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-colDosl{
+   padding:5%;
+   width : 100%;
+   font-size: 18px;
+}
+@media screen and (min-width: 600px){
+  .img-colDosl{
+     width: 100%;
+     font-size: 13px;
+  }
+
+}
+
+ @media screen and (min-width: 800px){
+  .img-colDosl{
+     width: 25%;
+     font-size: 13px;
+
+  }
+}
+/* ///////////////////////// */
+.footer{
+ background: #aaaaaa;
+
+}
+.conteinerTres{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-coltres{
+   padding:5%;
+   width : 50%;
+   font-size: 18px;
+}
+.btn-chico{
+  background-color:#fecd2f;
+  color: black;
+  width: 9%;
+  padding: 9px;
+  border: 1px solid #fecd2f;
+  border-radius: 10px;
+}
+@media screen and (min-width: 600px){
+  .img-coltres{
+     width: 100%;
+     font-size: 13px;
+  }
+  .img-coltres{
+     width: 100%;
+     font-size: 13px;
+
+  }
+
+}
+
+ @media screen and (min-width: 800px){
+  .img-coltres{
+     width: 70%;
+     font-size: 13px;
+
+  }
+  .img-colcuatro{
+     width: 30%;
+     font-size: 13px;
+     border-right: 2px
+
+  }
+}
